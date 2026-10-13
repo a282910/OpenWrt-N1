@@ -198,6 +198,17 @@ CONFIG_PACKAGE_mt7922bt-firmware=y
 
 # 恢复模式（failsafe/preinit）IP 与 LAN 默认 IP 同网段，便于救砖
 # （这三个值只影响按住 reset 进恢复模式时的临时地址，不影响正常运行 IP）
-CONFIG_TARGET_PREINIT_IP="192.168.31.1"
+CONFIG_TARGET_PREINIT_IP="192.168.2.222"
 CONFIG_TARGET_PREINIT_NETMASK="255.255.255.0"
-CONFIG_TARGET_PREINIT_BROADCAST="192.168.31.255"
+CONFIG_TARGET_PREINIT_BROADCAST="255.255.255.255"
+CONFIG_PACKAGE_luci-theme-argon=y
+CONFIG_PACKAGE_luci-app-argon-config=y
+CONFIG_PACKAGE_luci-app-smartdns=y
+CONFIG_PACKAGE_luci-app-iptvhelper=y
+CONFIG_PACKAGE_luci-app-oaf=y
+CONFIG_PACKAGE_luci-app-adbyby-plus=y
+CONFIG_PACKAGE_luci-app-msd_lite=y
+CONFIG_PACKAGE_luci-app-passwall=y
+CONFIG_PACKAGE_luci-app-passwall2=y
+CONFIG_PACKAGE_luci-app-ssr-plus=y
+CONFIG_PACKAGE_luci-app-adblock-lean=y
